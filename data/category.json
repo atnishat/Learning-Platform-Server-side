@@ -13,7 +13,7 @@
     },
     {
       "id": "04",
-      "name": "JQuery"
+      "name": "Python"
     },
     {
       "id": "05",
@@ -22,13 +22,5 @@
     {
       "id": "06",
       "name": "BootStrap"
-    },
-    {
-      "id": "07",
-      "name": "C"
-    },
-    {
-      "id": "08",
-      "name": "Python"
     }
   ]
