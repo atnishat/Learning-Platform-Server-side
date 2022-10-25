@@ -1,0 +1,34 @@
+[
+    {
+      "id": "01",
+      "name": "Php"
+    },
+    {
+      "id": "02",
+      "name": "React"
+    },
+    {
+      "id": "03",
+      "name": "JavaScript"
+    },
+    {
+      "id": "04",
+      "name": "JQuery"
+    },
+    {
+      "id": "05",
+      "name": "Laravel"
+    },
+    {
+      "id": "06",
+      "name": "BootStrap"
+    },
+    {
+      "id": "07",
+      "name": "C"
+    },
+    {
+      "id": "08",
+      "name": "Python"
+    }
+  ]
