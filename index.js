@@ -3,9 +3,21 @@ const app = express();
 const port = process.env.PORT || 5000;
 const cors = require('cors');
 const categories = require('./data/category.json');
-// const 
+const news = require('./data/news.json');
+
+
+
+
 
 app.use(cors());
+
+app.get('/news/:id', (req, res) => {
+    // console.log(req.params.id);
+    const id = req.params.id;
+    const selectedNews = news.find( n => n._id === id);
+    res.send(selectedNews);
+})
+
 app.get('/course-categories', (req, res) =>{
     res.send(categories);
 })
